@@ -1,0 +1,9 @@
+.container {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  position: relative;
+  z-index: 2;
+}
+.section { padding: var(--pad-y) 0; position: relative; }
+.section--tight { padding: clamp(64px, 7vw, 104px) 0; }

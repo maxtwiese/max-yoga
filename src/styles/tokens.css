@@ -1,0 +1,22 @@
+:root {
+  --paper:       #efe6d3;
+  --paper-deep:  #e6dcc4;
+  --paper-warm:  #f4ecda;
+  --ink:         #2a1f15;
+  --ink-soft:    #6b5d4f;
+  --ink-faint:   #7a6a4f;
+  --rule:        #cdbfa6;
+  --object:      #9d8f76;
+  --object-fill: #b8a890;
+  --accent:      #4a2d5c;
+
+  --serif: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --mono:  ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --max-w:   1120px;
+  --gutter:  clamp(20px, 4vw, 64px);
+  --pad-y:   clamp(80px, 10vw, 144px);
+
+  --ease-out:  cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+}

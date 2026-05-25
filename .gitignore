@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Claude Code local settings
+.claude/
+
+# Node (in case a build step ever gets added)
+node_modules/
+npm-debug.log*
+
+# Image source originals — kept locally, regenerated to img/web/ via
+# `scripts/optimize-images.sh` (see README). Not committed because they're
+# ~130 MB of raw PNGs that the deployed site doesn't need.
+img/objects/
+
+# Build / temp artifacts
+*.log
+*.tmp
+dist/
+.cache/
