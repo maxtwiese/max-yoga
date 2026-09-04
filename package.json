@@ -1,0 +1,11 @@
+{
+  "name": "max-yoga",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update-classes": "node scripts/fetch-classes.mjs"
+  },
+  "dependencies": {
+    "node-ical": "^0.19.0"
+  }
+}
