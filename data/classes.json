@@ -1,13 +1,5 @@
 [
   {
-    "title": "[Assist] Yoga on the Labyrinth",
-    "date": "Wed, Sep 9",
-    "time": "1:15 AM – 2:30 AM",
-    "location": "Grace Cathedral",
-    "link": "https://gracecathedral.org/series/yoga/",
-    "linkLabel": "Info"
-  },
-  {
     "title": "Vinyasa Flow",
     "date": "Wed, Sep 9",
     "time": "7:00 PM – 8:15 PM",
@@ -42,5 +34,13 @@
     "date": "Fri, Sep 18",
     "time": "1:00 AM – 2:00 AM",
     "location": ""
+  },
+  {
+    "title": "[Assist] Yoga on the Labyrinth",
+    "date": "Wed, Sep 23",
+    "time": "1:15 AM – 2:30 AM",
+    "location": "Grace Cathedral",
+    "link": "https://gracecathedral.org/series/yoga/",
+    "linkLabel": "Info"
   }
 ]
