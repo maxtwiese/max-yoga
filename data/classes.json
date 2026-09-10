@@ -1,13 +1,5 @@
 [
   {
-    "title": "Vinyasa Flow",
-    "date": "Wed, Sep 9",
-    "time": "7:00 PM – 8:15 PM",
-    "location": "Abundance Collective",
-    "link": "https://momence.com/s/141598295",
-    "linkLabel": "Register"
-  },
-  {
     "title": "Yoga Bilingüe",
     "date": "Mon, Sep 14",
     "time": "1:00 AM – 2:00 AM",
@@ -42,5 +34,13 @@
     "location": "Grace Cathedral",
     "link": "https://gracecathedral.org/series/yoga/",
     "linkLabel": "Info"
+  },
+  {
+    "title": "Vinyasa Flow",
+    "date": "Wed, Sep 23",
+    "time": "7:00 PM – 8:15 PM",
+    "location": "Abundance Collective",
+    "link": "https://momence.com/s/141598304",
+    "linkLabel": "Register"
   }
 ]
