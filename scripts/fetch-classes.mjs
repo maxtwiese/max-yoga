@@ -50,10 +50,12 @@ async function main() {
 function collectOccurrences(event, rangeStart, rangeEnd, out) {
   if (event.rrule) {
     const duration = new Date(event.end).getTime() - new Date(event.start).getTime();
+    const masterStart = new Date(event.start);
     const dates = event.rrule.between(rangeStart, rangeEnd, true);
+    const floating = dates.length > 0 && !hasCorrectTime(dates[0], masterStart);
 
     for (const rawDate of dates) {
-      const date = fixRruleDate(rawDate);
+      const date = floating ? fixRruleDate(rawDate) : rawDate;
       if (isExcluded(event, date)) continue;
 
       const override = getOverride(event, date);
@@ -104,9 +106,21 @@ function buildEntry(event) {
   };
 }
 
+function hasCorrectTime(rruleDate, masterStart) {
+  // rrule.between() returns floating dates (wall-clock in UTC fields) on some
+  // systems and correct UTC dates on others. Compare the Pacific wall-clock time
+  // of the rrule date against the master event's known-correct time to detect.
+  const minuteOfDay = d => {
+    const p = new Intl.DateTimeFormat('en-US', {
+      timeZone: TZ, hour: 'numeric', minute: 'numeric', hour12: false,
+    }).formatToParts(d);
+    return (+p.find(x => x.type === 'hour').value % 24) * 60
+         + +p.find(x => x.type === 'minute').value;
+  };
+  return minuteOfDay(rruleDate) === minuteOfDay(masterStart);
+}
+
 function fixRruleDate(floatingDate) {
-  // rrule.between() returns dates with wall-clock values stuffed into UTC fields.
-  // Re-interpret those values as local time in the calendar's timezone.
   const utcMs = floatingDate.getTime();
   const parts = new Intl.DateTimeFormat('en-US', {
     timeZone: TZ,

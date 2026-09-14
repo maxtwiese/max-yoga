@@ -1,17 +1,19 @@
 [
   {
-    "title": "Yoga Bilingüe",
-    "date": "Mon, Sep 14",
-    "time": "1:00 AM – 2:00 AM",
-    "location": "Live Oak Park"
-  },
-  {
     "title": "[Assist] Yoga on the Labyrinth",
-    "date": "Wed, Sep 16",
-    "time": "1:15 AM – 2:30 AM",
+    "date": "Tue, Sep 15",
+    "time": "6:15 PM – 7:30 PM",
     "location": "Grace Cathedral",
     "link": "https://gracecathedral.org/series/yoga/",
     "linkLabel": "Info"
+  },
+  {
+    "title": "Vinyasa Flow",
+    "date": "Wed, Sep 16",
+    "time": "5:30 PM – 6:30 PM",
+    "location": "Abundance Collective",
+    "link": "https://momence.com/s/140350873",
+    "linkLabel": "Register"
   },
   {
     "title": "Vinyasa Flow",
@@ -23,14 +25,14 @@
   },
   {
     "title": "Peaceful Warriors",
-    "date": "Fri, Sep 18",
-    "time": "1:00 AM – 2:00 AM",
+    "date": "Thu, Sep 17",
+    "time": "6:00 PM – 7:00 PM",
     "location": ""
   },
   {
     "title": "[Assist] Yoga on the Labyrinth",
-    "date": "Wed, Sep 23",
-    "time": "1:15 AM – 2:30 AM",
+    "date": "Tue, Sep 22",
+    "time": "6:15 PM – 7:30 PM",
     "location": "Grace Cathedral",
     "link": "https://gracecathedral.org/series/yoga/",
     "linkLabel": "Info"
