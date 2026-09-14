@@ -24,12 +24,6 @@
     "linkLabel": "Register"
   },
   {
-    "title": "Peaceful Warriors",
-    "date": "Thu, Sep 17",
-    "time": "6:00 PM – 7:00 PM",
-    "location": ""
-  },
-  {
     "title": "[Assist] Yoga on the Labyrinth",
     "date": "Tue, Sep 22",
     "time": "6:15 PM – 7:30 PM",
@@ -43,6 +37,14 @@
     "time": "7:00 PM – 8:15 PM",
     "location": "Abundance Collective",
     "link": "https://momence.com/s/141598304",
+    "linkLabel": "Register"
+  },
+  {
+    "title": "Slow Flow",
+    "date": "Thu, Sep 24",
+    "time": "7:00 PM – 8:15 PM",
+    "location": "Abundance Collective",
+    "link": "https://momence.com/s/142419904",
     "linkLabel": "Register"
   }
 ]
