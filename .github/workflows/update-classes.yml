@@ -2,7 +2,7 @@ name: Update classes
 
 on:
   schedule:
-    - cron: '0 13 * * *' # 6 AM Pacific (UTC-7)
+    - cron: '0 8 * * *' # midnight Pacific (PST=00:00, PDT=01:00)
   workflow_dispatch:
 
 permissions:
