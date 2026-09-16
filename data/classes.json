@@ -1,13 +1,5 @@
 [
   {
-    "title": "[Assist] Yoga on the Labyrinth",
-    "date": "Tue, Sep 15",
-    "time": "6:15 PM – 7:30 PM",
-    "location": "Grace Cathedral",
-    "link": "https://gracecathedral.org/series/yoga/",
-    "linkLabel": "Info"
-  },
-  {
     "title": "Vinyasa Flow",
     "date": "Wed, Sep 16",
     "time": "5:30 PM – 6:30 PM",
@@ -46,5 +38,13 @@
     "location": "Abundance Collective",
     "link": "https://momence.com/s/142419904",
     "linkLabel": "Register"
+  },
+  {
+    "title": "[Assist] Yoga on the Labyrinth",
+    "date": "Tue, Oct 6",
+    "time": "6:15 PM – 7:30 PM",
+    "location": "Grace Cathedral",
+    "link": "https://gracecathedral.org/series/yoga/",
+    "linkLabel": "Info"
   }
 ]
