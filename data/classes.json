@@ -1,13 +1,5 @@
 [
   {
-    "title": "Vinyasa Flow",
-    "date": "Wed, Nov 11",
-    "time": "7:00 PM – 8:15 PM",
-    "location": "Abundance Collective",
-    "link": "https://momence.com/s/141598302",
-    "linkLabel": "Register"
-  },
-  {
     "title": "[Assist] Yoga on the Labyrinth",
     "date": "Tue, Nov 17",
     "time": "6:15 PM – 7:30 PM",
@@ -38,5 +30,13 @@
     "location": "Grace Cathedral",
     "link": "https://gracecathedral.org/series/yoga/",
     "linkLabel": "Info"
+  },
+  {
+    "title": "Vinyasa Flow",
+    "date": "Wed, Dec 2",
+    "time": "7:00 PM – 8:15 PM",
+    "location": "Abundance Collective",
+    "link": "https://momence.com/s/141598305",
+    "linkLabel": "Register"
   }
 ]
